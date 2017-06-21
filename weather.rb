@@ -25,6 +25,38 @@ end
 # BONUS:  Write a method that takes in the weather hash as an argument and converts the farenheit temperature to celcius. Have the method round your answer to two decimal places. Is there a method we can use to round in Ruby?
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
+city1={
+	:city => "San Francisco",
+	:description => "Clear",
+	:temperature_farenheit => 67.6,
+	:temperature_celcius => 19.8
+}
+
+city2={
+    :city=> "Chicago",
+    :description => "mostly cloudly",
+    :temperature_farenheit => 79.3,
+    :temperature_celcius =>26.3
+}
+
+city3={
+    :city=> "Athens",
+    :description=> "overcast",
+    :temperature_farenheit=> 77.6,
+    :temperature_celcius=> 25.3
+}
+
+
+
+def location(weather_hash)
+    weather_hash[:city]
+end
+puts location(city3)
+       
+    
+
+
+
 
 
 
